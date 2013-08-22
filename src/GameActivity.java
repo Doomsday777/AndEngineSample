@@ -16,7 +16,7 @@ public class GameActivity extends BaseGameActivity {
 
 	@Override
 	public void onCreateScene( OnCreateSceneCallback pOnCreateSceneCallback ) throws Exception {
-		Scene oScene = new Scene();
+		Scene oScene = new Scene(); 
 		pOnCreateSceneCallback.onCreateSceneFinished( oScene );
 	}
 
